@@ -1,7 +1,7 @@
 {
   "name": "@nodifier/url-parser",
   "scope": "nodifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse url string into object of url components",
   "main": "dist/index.js",
   "scripts": {
