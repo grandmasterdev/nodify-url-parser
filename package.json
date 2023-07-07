@@ -1,10 +1,11 @@
 {
-  "name": "nodify-url-parser",
+  "name": "@nodifier/url-parser",
+  "scope": "nodifier",
   "version": "1.0.0",
   "description": "Parse url string into object of url components",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest --collectCoverage",
+    "test": "jest",
     "build": "esbuild src/index.ts --bundle --minify --sourcemap --outdir=dist --platform=node"
   },
   "keywords": [
