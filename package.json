@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "esbuild src/index.ts --bundle --minify --sourcemap --outdir=dist --platform=node"
+    "build": "esbuild src/index.ts --bundle --minify --sourcemap --outdir=dist --platform=node && tsc"
   },
   "keywords": [
     "nodify",
