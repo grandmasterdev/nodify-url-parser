@@ -6,7 +6,7 @@ import * as querystring from "querystring";
  * @param inputUrl 
  * @returns ParseUrl
  */
-export const parseUrl = (inputUrl: string) => {
+export const parseUrl = (inputUrl: string): ParseUrl | {} => {
   const parsedUrl = new url.URL(inputUrl);
 
   const {
